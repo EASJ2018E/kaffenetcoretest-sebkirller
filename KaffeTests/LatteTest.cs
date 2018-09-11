@@ -17,7 +17,6 @@ namespace KaffeTests
 
             //assert
             Assert.AreEqual(40, pris);
-
         }
     }
 }

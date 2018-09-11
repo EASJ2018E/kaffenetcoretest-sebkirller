@@ -43,7 +43,6 @@ namespace KaffeTests
 
             //Assert
             Assert.AreEqual(sortKaffe.Rabat, 0);
-
         }
     }
 }

@@ -16,7 +16,6 @@ namespace KaffeTests
             int pris = kaffe.Pris();
             //Assert
             Assert.AreEqual(20, pris);
-
         }
 
         [TestMethod()]
@@ -29,10 +28,10 @@ namespace KaffeTests
             //Assert
             Assert.AreEqual("stærk", styrke);
         }
+
         [TestMethod()]
         public void TestKaffeliste()
         {
-            
             //Arrange
             var kaffeListe = new List<Imælk>();
 
@@ -41,8 +40,7 @@ namespace KaffeTests
             var sortKaffe = new SortKaffe();
             kaffeListe.Add(cortado);
             kaffeListe.Add(latte);
-            //           kaffeListe.Add(sortKaffe);
-
+            // kaffeListe.Add(sortKaffe);
 
             //Act
             int total = 0;
